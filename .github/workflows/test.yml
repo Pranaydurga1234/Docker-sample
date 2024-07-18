@@ -1,0 +1,12 @@
+---
+name: test-self
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  self:
+    runs-on: self-hosted
+    steps:
+      - run: echo "voilaa."
