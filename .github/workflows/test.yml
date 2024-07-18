@@ -9,4 +9,4 @@ jobs:
   self:
     runs-on: self-hosted
     steps:
-      - run: echo "voilaa...."
+      - run: echo "voilaa. Run running"
