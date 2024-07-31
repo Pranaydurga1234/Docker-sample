@@ -7,7 +7,7 @@ on:
 
 jobs:
   self:
-    runs-on: self-hosted
+    runs-on: windows
     steps:
       - run: echo "testing"
-      - run: echo "voila"
+      - run: echo "windows testing"
